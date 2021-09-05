@@ -1,0 +1,41 @@
+h1 {
+font-family: 'Times New Roman';
+font-size: 85px;
+color: purple;
+text-align: center;
+}
+.about {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.choice {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 15px;
+}
+
+body {
+margin: auto;
+width: 60%;
+border:  3px solid purple;
+padding: 7px;
+}
+
+td {
+border: 1px solid purple;
+font-size: 20px;
+font-family: 'Times New Roman';
+background-color: lightpink;
+line-height: 38px;
+width: 200px;
+}
+.container {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.slidecontainer {
+    display: flex;
+}

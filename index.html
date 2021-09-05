@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Bish-Bosh</title>
+</head>
+<body>
+
+<h1>Bish-Bosh</h1>
+<div class="about">
+    <p>Bish-Bosh listar tal mellan 1 och det du väljer nedan.</p>
+    <p>Om talet är jämt delbart med ditt valda bish-tal visas 'Bish' istället för talet.</p>
+    <p>Om talet är jämt delbart med ditt valda bosh-tal visas 'Bosh' istället för talet.</p>
+    <p>Om talet är jämt delbart med båda dina tal visas "Bish-Bosh".</p> 
+</div>
+
+<p><br></p>
+<div class="choice">
+    <div class="slidecontainer">
+        <p>Antal nummer:<p\>
+        <input type="range" min="1" max="100" value="1" class="slider" id="rangeNumber">
+        <p><span id="choosenRange"></span></p>
+    </div>
+    <div class="slidecontainer">
+        <p>Bish-nummer:<p\>
+        <input type="range" min="1" value="1" class="slider" id="bishNumber">
+        <p><span id="choosenBish"></span></p>
+    </div>
+    <div class="slidecontainer">
+        <p>Bosh-nummer:<p\>
+        <input type="range" min="1" value="1" class="slider" id="boshNumber">
+        <p><span id="choosenBosh"></span></p>
+    </div>
+</div>
+<button onclick="run()">Räkna</button>
+
+<p><br></p>
+
+<div id="container" style="width: 100%;"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
